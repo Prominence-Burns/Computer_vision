@@ -1,0 +1,94 @@
+{
+  "$schema": "urn:ine:aecc:casilla:v1",
+  "metadatos": {
+    "casilla_id": "DEMO-001-001-B",
+    "entidad_federativa": "Demo",
+    "municipio_o_delegacion": "Demo",
+    "distrito": "01",
+    "seccion": "0001",
+    "tipo_casilla": "basica",
+    "tipo_eleccion": "diputacion_mr",
+    "proceso_electoral": "2023-2024"
+  },
+  "bloque_1": {
+    "boletas_recibidas": 95,
+    "BS": 50,
+    "PV": 45,
+    "RPPV": 0,
+    "SV": 45,
+    "BSU": 45
+  },
+  "bloque_2": {
+    "resultados": [
+      {
+        "partido_o_coalicion": "Sigamos Haciendo Historia",
+        "id": "SHH",
+        "es_coalicion": true,
+        "partidos_coalicion": [
+          "PVEM",
+          "PT",
+          "MORENA"
+        ],
+        "votos": 25
+      },
+      {
+        "partido_o_coalicion": "Partido Acción Nacional",
+        "id": "PAN",
+        "es_coalicion": false,
+        "partidos_coalicion": null,
+        "votos": 5
+      },
+      {
+        "partido_o_coalicion": "Morena",
+        "id": "MORENA",
+        "es_coalicion": false,
+        "partidos_coalicion": null,
+        "votos": 5
+      },
+      {
+        "partido_o_coalicion": "Movimiento Ciudadano",
+        "id": "MC",
+        "es_coalicion": false,
+        "partidos_coalicion": null,
+        "votos": 5
+      },
+      {
+        "partido_o_coalicion": "Fuerza y Corazón por México",
+        "id": "FCM",
+        "es_coalicion": true,
+        "partidos_coalicion": [
+          "PAN",
+          "PRI",
+          "PRD"
+        ],
+        "votos": 5
+      }
+    ],
+    "CNR": 0,
+    "VN": 0,
+    "RV": 45
+  },
+  "consistencia": {
+    "criterio_1_pv_rppv_sv": true,
+    "criterio_2_sv_bsu": true,
+    "criterio_3_bsu_rv": true,
+    "criterio_4_sum_vi_rv": true,
+    "acta_consistente": true,
+    "tipo_error": "ninguno",
+    "_valores": {
+      "PV": 45,
+      "RPPV": 0,
+      "SV": 45,
+      "BSU": 45,
+      "RV": 45
+    }
+  },
+  "incidentes": {
+    "se_presentaron": false,
+    "descripcion": null,
+    "hojas_de_incidentes": 0
+  },
+  "boletas_procesadas": 45,
+  "boletas_revision_humana": 0,
+  "hash_boletas": "3272b769449e86994d7365e145422d733eba8d2aced9289f2200f43fe060f2d1"
+}

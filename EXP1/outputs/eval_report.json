@@ -1,0 +1,26 @@
+{
+  "primary": {
+    "exact_destinatario_accuracy": 1.0,
+    "f1_macro": 0.4106259851610895,
+    "f1_micro": 0.5527272727272727,
+    "tasa_requiere_revision": 0.0,
+    "confusion_subtipos": {
+      "coalicion_multimarca": {
+        "coalicion_multimarca": 30
+      },
+      "marca_estandar": {
+        "marca_atipica": 14,
+        "marca_estandar": 1
+      }
+    }
+  },
+  "secondary": {
+    "hamming_loss": 0.3037037037037037,
+    "subset_accuracy": 0.1111111111111111,
+    "lrap": 0.5722134038800707,
+    "coverage_error": 4.888888888888889
+  },
+  "n_test": 45,
+  "hash_boletas": "3272b769449e86994d7365e145422d733eba8d2aced9289f2200f43fe060f2d1",
+  "consistencia_acta": true
+}
