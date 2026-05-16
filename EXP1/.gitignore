@@ -1,0 +1,8 @@
+outputs/*
+!outputs/.gitkeep
+*.pt
+*.pth
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
