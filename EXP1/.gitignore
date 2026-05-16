@@ -1,5 +1,6 @@
 outputs/*
 !outputs/.gitkeep
+!outputs/*.md
 *.pt
 *.pth
 __pycache__/
